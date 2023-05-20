@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="14dp"
+    android:paddingLeft="6.25dp"
+    android:paddingRight="6.25dp"
+    android:paddingBottom="5dp">
+
+    <TextView
+        android:id="@+id/tv_ver_todo"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:text="피그마 수정하기"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_ver_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginTop="5dp"
+        android:text="메인메뉴, 하단바"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_ver_todo"
+        app:layout_constraintTop_toBottomOf="@+id/tv_ver_todo" />
+
+    <TextView
+        android:id="@+id/tv_ver_time"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="6월 15일 9시"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_ver_detail"
+        app:layout_constraintTop_toBottomOf="@+id/tv_ver_todo" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:button="@null"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="12dp"
+        android:checked="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/checkbox" />
+</androidx.constraintlayout.widget.ConstraintLayout>

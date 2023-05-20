@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_cannot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.calendarFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/dday_cal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/dday_rectangle"
+        android:paddingLeft="7dp"
+        android:paddingTop="2.5dp"
+        android:paddingRight="6dp"
+        android:paddingBottom="2.5dp">
+
+        <ImageView
+            android:id="@+id/img_dday_status_cal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/dday_status_circle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_dday_cal"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_dday_cal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D - 39"
+            android:textSize="12sp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager_aespa"
+        android:layout_width="347dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/vp_background"
+        android:paddingLeft="26dp"
+        android:paddingTop="30dp"
+        android:paddingRight="26dp"
+        android:paddingBottom="27dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_register_todo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="나의 일정 등록"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="27dp"
+            android:orientation="horizontal"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp">
+
+            <Button
+                android:id="@+id/btn_bf"
+                android:layout_width="8.75dp"
+                android:layout_height="14.85dp"
+                android:background="@drawable/cal_arrow_front" />
+
+            <TextView
+                android:id="@+id/tv_date_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="05.18"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn_af"
+                android:layout_width="8.75dp"
+                android:layout_height="14.85dp"
+                android:background="@drawable/cal_arrow_back" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginRight="14dp"
+            android:background="#EDF1F7" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="120dp"
+            android:layout_marginBottom="22dp"
+            android:text="불가능한 시간" />
+
+        <LinearLayout
+            android:id="@+id/btn_layout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="9dp"
+                android:background="@drawable/selector_btn_color"
+                android:text="10:00"
+                android:textAlignment="center"
+                android:textColor="@drawable/selector_txt_color"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="9dp"
+                android:background="@drawable/selector_btn_color"
+                android:text="11:00"
+                android:textAlignment="center"
+                android:textColor="@drawable/selector_txt_color"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="9dp"
+                android:background="@drawable/selector_btn_color"
+                android:text="12:00"
+                android:textAlignment="center"
+                android:textColor="@drawable/selector_txt_color"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="9dp"
+                android:background="@drawable/selector_btn_color"
+                android:text="13:00"
+                android:textAlignment="center"
+                android:textColor="@drawable/selector_txt_color"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_layout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="9dp"
+                android:background="@drawable/selector_btn_color"
+                android:text="14:00"
+                android:textAlignment="center"
+                android:textColor="@drawable/selector_txt_color"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="9dp"
+                android:background="@drawable/selector_btn_color"
+                android:text="15:00"
+                android:textAlignment="center"
+                android:textColor="@drawable/selector_txt_color"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="9dp"
+                android:background="@drawable/selector_btn_color"
+                android:text="16:00"
+                android:textAlignment="center"
+                android:textColor="@drawable/selector_txt_color"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="9dp"
+                android:background="@drawable/selector_btn_color"
+                android:text="17:00"
+                android:textAlignment="center"
+                android:textColor="@drawable/selector_txt_color"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_layout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="11dp"
+                android:background="@drawable/selector_btn_color"
+                android:text="18:00"
+                android:textAlignment="center"
+                android:textColor="@drawable/selector_txt_color"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <Button
+                android:id="@+id/btn10"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="11dp"
+                android:background="@drawable/selector_btn_color"
+                android:text="19:00"
+                android:textAlignment="center"
+                android:textColor="@drawable/selector_txt_color"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <Button
+                android:id="@+id/btn11"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="11dp"
+                android:background="@drawable/selector_btn_color"
+                android:text="20:00"
+                android:textAlignment="center"
+                android:textColor="@drawable/selector_txt_color"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <Button
+                android:id="@+id/btn12"
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:background="@drawable/selector_btn_color"
+                android:text="21:00"
+                android:textAlignment="center"
+                android:textColor="@drawable/selector_txt_color"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_circular"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="저장하기"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

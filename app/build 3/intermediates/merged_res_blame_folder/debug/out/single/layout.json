@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/list_item.xml",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/list_item.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/activity_login.xml",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/activity_home.xml",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/activity_mypage.xml",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/activity_mypage.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/activity_navi.xml",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/activity_navi.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/fragment_contribution.xml",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/fragment_contribution.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/activity_notification.xml",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/activity_notification.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/fragment_home.xml",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/fragment_calendar.xml",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/fragment_calendar.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/fragment_notification.xml",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/fragment_notification.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/toolbar.xml",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/toolbar.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/fragment_map.xml",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/fragment_map.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/list_item_project.xml",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/list_item_project.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-mergeDebugResources-30:/layout/fragment_mypage.xml",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/fragment_mypage.xml"
+    }
+]

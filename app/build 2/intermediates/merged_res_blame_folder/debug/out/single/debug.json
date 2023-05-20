@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/drawable_tv_border.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/drawable/tv_border.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/drawable_toolbar_mypage.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/drawable/toolbar_mypage.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/layout_fragment_mypage.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/layout/fragment_mypage.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/drawable_nav1.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/drawable/nav1.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/layout_fragment_map.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/layout/fragment_map.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/layout_fragment_notification.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/fragment_notification.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/drawable_toolbar_notification.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/drawable/toolbar_notification.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/layout_fragment_contribution.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/layout/fragment_contribution.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/menu_toolbar.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/menu/toolbar.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/drawable_nav4.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/drawable/nav4.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/layout_fragment_calendar.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/layout/fragment_calendar.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/drawable_nav2.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/drawable/nav2.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/layout_activity_navi.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/activity_navi.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/drawable_button_circular.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/drawable/button_circular.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/drawable_menu_click_color.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/drawable/menu_click_color.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/layout_fragment_home.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/drawable_arrow_back.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/drawable/arrow_back.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/layout_activity_home.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/layout_activity_mypage.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/activity_mypage.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/layout_list_item.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/list_item.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/xml_backup_rules.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/menu_navi_menu.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/menu/navi_menu.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/layout_fragment_notification.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/layout/fragment_notification.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/drawable_nav3.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/drawable/nav3.xml"
+    },
+    {
+        "merged": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-merged_res-31:/layout_toolbar.xml.flat",
+        "source": "/Users/2sumin/.gradle/daemon/7.5/com.guri.loginkt_new.app-main-33:/layout/toolbar.xml"
+    }
+]

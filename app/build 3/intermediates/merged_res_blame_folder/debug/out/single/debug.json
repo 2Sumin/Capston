@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/drawable_menu_click_color.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/drawable/menu_click_color.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/drawable_nav3.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/drawable/nav3.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/drawable_arrow_back.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/drawable/arrow_back.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/layout_list_item_project.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/list_item_project.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/layout_fragment_notification.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/fragment_notification.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/xml_data_extraction_rules.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/drawable_toolbar_notification.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/drawable/toolbar_notification.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/layout_activity_home.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/layout_fragment_home.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/menu_toolbar_menu.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/menu/toolbar_menu.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/xml_backup_rules.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/layout_activity_notification.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/activity_notification.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/layout_fragment_mypage.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/fragment_mypage.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/drawable_nav2.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/drawable/nav2.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/layout_activity_navi.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/activity_navi.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/layout_activity_login.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/drawable_nav4.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/drawable/nav4.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/drawable_toolbar_mypage.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/drawable/toolbar_mypage.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/drawable_button_circular.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/drawable/button_circular.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/layout_activity_mypage.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/activity_mypage.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/layout_list_item.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/list_item.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/layout_fragment_calendar.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/fragment_calendar.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/drawable_tv_border.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/drawable/tv_border.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/layout_fragment_contribution.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/fragment_contribution.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/drawable_nav1.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/drawable/nav1.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/layout_toolbar.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/toolbar.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/layout_fragment_map.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/layout/fragment_map.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/menu_navi_menu.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/menu/navi_menu.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-33:/drawable/ic_launcher_background.xml"
+    }
+]
