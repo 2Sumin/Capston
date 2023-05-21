@@ -56,9 +56,15 @@ android {
             universalApk true
         }
     }
+
+    //안드로이드 스튜디오 깔고 다른 프로젝트 git clone 할 때 발생하는 문제
+    task wrapper(type: Wrapper) {
+        gradleVersion = '7.0'
+    }
 }
 
 dependencies {
+
 
     // 뷰페이저를 위해 추가
     implementation 'androidx.viewpager2:viewpager2:1.0.0-alpha01'
@@ -83,4 +89,9 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+
 }
+
+// Solution - Task 'prepareKotlinBuildScriptModel' not found in project ':app'.
+tasks.register("prepareKotlinBuildScriptModel"){}
