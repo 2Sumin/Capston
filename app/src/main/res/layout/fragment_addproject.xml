@@ -13,8 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="23dp"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="10dp"
-        android:text="마감일"
+        android:layout_marginBottom="9dp"
+        android:text="클래스 날짜"
         android:textColor="#69695D"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
@@ -26,10 +26,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="23dp"
-        android:layout_marginTop="51dp"
+        android:layout_marginTop="80dp"
         android:layout_marginBottom="1dp"
         android:backgroundTint="#3883FF"
-        android:text="프로젝트명"
+        android:text="클래스명"
         android:textColor="#69695D"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName3"
@@ -43,7 +43,7 @@
         android:layout_marginStart="23dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="1dp"
-        android:text="프로젝트 설명"
+        android:text="클래스 설명"
         android:textColor="#69695D"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName4"
@@ -54,7 +54,8 @@
         android:id="@+id/btn_registerr"
         android:layout_width="321dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="75dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="76dp"
         android:background="@drawable/button_circular"
         android:backgroundTint="#3883FF"
         android:text="등록하기"
@@ -62,6 +63,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AddPerson"
         app:strokeColor="#3883FF" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -69,8 +71,7 @@
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="48dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/shape_for_circle_button"
         android:backgroundTint="#6F94FF"
         android:text="+"
@@ -87,7 +88,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="22dp"
-        android:text="팀원등록"
+        android:text="구성원 등록"
         android:textColor="#69695D"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/AddPerson"
@@ -113,7 +114,7 @@
 
         <Button
             android:id="@+id/todoDatepicker"
-            android:layout_width="360dp"
+            android:layout_width="307dp"
             android:layout_height="30dp"
             android:layout_marginStart="23dp"
             android:layout_marginTop="10dp"
@@ -125,7 +126,7 @@
 
         <TextView
             android:id="@+id/dateText"
-            android:layout_width="360dp"
+            android:layout_width="312dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="23dp"
             android:layout_marginTop="1dp"
@@ -150,7 +151,7 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
-        android:layout_width="360dp"
+        android:layout_width="307dp"
         android:layout_height="47dp"
         android:layout_marginStart="23dp"
 
@@ -171,12 +172,12 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName4"
-        android:layout_width="360dp"
+        android:layout_width="307dp"
         android:layout_height="75dp"
         android:layout_marginStart="23dp"
-        android:layout_marginEnd="23dp"
-
         android:layout_marginTop="10dp"
+
+        android:layout_marginEnd="23dp"
 
         android:background="@drawable/tv_border"
         android:ems="10"
