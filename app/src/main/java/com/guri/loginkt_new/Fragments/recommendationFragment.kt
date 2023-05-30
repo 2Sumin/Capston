@@ -40,10 +40,9 @@ class recommendationFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         var vpList = arrayListOf(
-            MyViewPager("피그마 제작하기", "스플래시 화면에 넣을 로고 완성하기\n상단바, 하단바 만들고 프래그먼트로 연결하기","5월 10일 9시"),
-            MyViewPager("코틀린 프론트엔드 구현하기", "메인화면, 지도 기능 프래그먼트 연결\n로그인, 회원가입 페이지 구현하기","5월 19일 16시"),
-            MyViewPager("코틀린 프론트엔드 완성하기", "일정, 기여도 확인 기능 연결\n마이페이지, 알림 기능 구현하기","5월 26일 10시")
-        )
+            MyViewPager("물리1", "수업 복습하기\n완자 문제풀이","5월 10일 9시"),
+            MyViewPager("화학1", "오답노트 작성하기\n수업 복습하기","5월 19일 16시"),
+            MyViewPager("수학2", "수업 복습하기\n쎈 p80-92 문제풀이","5월 26일 10시")        )
 
         binding.viewPagerAespa.adapter = MyViewPagerAdapter(vpList)
 

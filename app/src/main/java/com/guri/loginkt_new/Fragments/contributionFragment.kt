@@ -133,13 +133,12 @@ class contributionFragment: BottomSheetDialogFragment() {
         )
 
         var verList = arrayListOf(
-            ListVertical("인프런, 코틀린 강의 듣기", "Notion 링크 첨부","5월 13일 9시"),
-            ListVertical("피그마 메인, 일정 기능 완성하기", "일정 기능 수정 먼저 하기","5월 17일 10시"),
-            ListVertical("MainActivity, 기능 완성하기", "상단바, 하단바 구현","5월 25일 15시"),
-            ListVertical("지도 API 기능 구현 완성하기", "참고자료 Notion에 업로드","6월 12일 9시"),
-            ListVertical("Fragment 파일, binding 설정", "FindViewById() 수정","6월 15일 17시"),
-            ListVertical("일정 기능, TimePicker 구현 완성", "모든 Fragment에 적용","6월 19일 18시"),
-            ListVertical("깃허브 UpLoad", "모든 파일 pull","6월 21일 21시")
+            ListVertical("수학", "수1/수학의 정석 : part 삼각함수 ","5월 17일 10시"),
+            ListVertical("물리1", "과학/완자 : part 전기와 자기","5월 25일 15시"),
+            ListVertical("수학", "수1/수학의 정석 : part 방정식과 부등식 ","6월 12일 9시"),
+            ListVertical("국어", "문학 / 비상 : 현대문학","6월 15일 17시"),
+            ListVertical("국어", "비문학 / 디딤돌 : 3주차 ","6월 19일 18시"),
+            ListVertical("영어", "영어 / EBS 수능특강 : 6주차","6월 21일 21시")
         )
 //        verList.add(ListVertical(add_title.toString(), add_detail.toString(), add_time.toString()))
 
