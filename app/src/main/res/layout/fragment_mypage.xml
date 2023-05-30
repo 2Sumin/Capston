@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
             android:layout_marginBottom="11dp"
-            android:text="University"
+            android:text="School"
             android:textSize="16sp" />
 
         <EditText
@@ -56,7 +56,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:paddingLeft="10dp"
-            android:text="경북대학교"
+            android:text="석전초등학교"
             android:textColor="#6A6868"
             android:textSize="16sp" />
 
@@ -88,7 +88,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
             android:layout_marginBottom="11dp"
-            android:text="Major"
+            android:text="Sex"
             android:textSize="16sp" />
 
         <EditText
@@ -100,7 +100,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:paddingLeft="10dp"
-            android:text="컴퓨터공학과"
+            android:text="여자"
             android:textColor="#6A6868"
             android:textSize="16sp" />
 

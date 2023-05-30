@@ -142,17 +142,17 @@
 
         android:layout_width="321dp"
         android:layout_height="42dp"
-        android:paddingLeft="10dp"
-
-        android:background="@drawable/tv_border"
-        android:textColor="#6A6868"
-
         android:layout_marginStart="8dp"
+
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
+
+        android:background="@drawable/tv_border"
         android:ems="10"
-        android:hint="University"
+        android:hint="School"
         android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="#6A6868"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="@+id/editTextNumberPassword"
         app:layout_constraintStart_toStartOf="@+id/editTextNumberPassword"
@@ -163,17 +163,17 @@
 
         android:layout_width="321dp"
         android:layout_height="42dp"
-        android:paddingLeft="10dp"
-
-        android:background="@drawable/tv_border"
-        android:textColor="#6A6868"
-
         android:layout_marginStart="8dp"
+
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
+
+        android:background="@drawable/tv_border"
         android:ems="10"
-        android:hint="Major"
+        android:hint="Grade"
         android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="#6A6868"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName3"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName3"
