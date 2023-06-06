@@ -149,7 +149,7 @@
 
         android:background="@drawable/tv_border"
         android:ems="10"
-        android:hint="School"
+        android:hint="University"
         android:inputType="textPersonName"
         android:paddingLeft="10dp"
         android:textColor="#6A6868"
@@ -170,7 +170,7 @@
 
         android:background="@drawable/tv_border"
         android:ems="10"
-        android:hint="Grade"
+        android:hint="Major"
         android:inputType="textPersonName"
         android:paddingLeft="10dp"
         android:textColor="#6A6868"

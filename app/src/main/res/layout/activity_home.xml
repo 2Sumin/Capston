@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="left"
             android:fontFamily="sans-serif-medium"
-            android:text="Class A"
+            android:text="Project A"
             android:textColor="@color/toolbar_title_blue"
             android:textSize="24sp"
             tools:layout_editor_absoluteX="16dp"

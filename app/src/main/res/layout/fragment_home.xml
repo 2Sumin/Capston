@@ -14,7 +14,7 @@
         android:layout_marginTop="30dp"
         android:background="@drawable/add_pro_btn"
         android:fontFamily="sans-serif-condensed"
-        android:text="수업 추가하기"
+        android:text="프로젝트 추가하기"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
