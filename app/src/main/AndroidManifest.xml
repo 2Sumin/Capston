@@ -20,8 +20,7 @@
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"
-            android:value="259c61a378e03b3896eac31bdb0be29b" />
-        android:value="9d181c064b7614243f02e9dc3492a974" />
+            android:value="9d181c064b7614243f02e9dc3492a974" />
 
         <activity
             android:name=".LoginActivity"
@@ -37,8 +36,7 @@
             android:exported="true">
             <meta-data
                 android:name="com.kakao.sdk.AppKey"
-                android:value="259c61a378e03b3896eac31bdb0be29b" />
-            android:value="9d181c064b7614243f02e9dc3492a974" />
+                android:value="9d181c064b7614243f02e9dc3492a974" />
         </activity>
         <activity
             android:name=".MainActivity"
