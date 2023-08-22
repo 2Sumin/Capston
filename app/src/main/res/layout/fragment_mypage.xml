@@ -26,7 +26,7 @@
             android:textSize="16sp" />
 
         <EditText
-            android:id="@+id/et_Username"
+            android:id="@+id/et_mp_Username"
             android:layout_width="321dp"
             android:layout_height="45dp"
             android:layout_marginBottom="17dp"
@@ -44,11 +44,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
             android:layout_marginBottom="11dp"
-            android:text="University"
+            android:text="School"
             android:textSize="16sp" />
 
         <EditText
-            android:id="@+id/et_University"
+            android:id="@+id/et_mp_School"
             android:layout_width="321dp"
             android:layout_height="45dp"
             android:layout_marginBottom="17dp"
@@ -66,11 +66,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
             android:layout_marginBottom="11dp"
-            android:text="Major"
+            android:text="Email"
             android:textSize="16sp" />
 
         <EditText
-            android:id="@+id/et_Grade"
+            android:id="@+id/et_mp_Email"
             android:layout_width="321dp"
             android:layout_height="45dp"
             android:layout_marginBottom="17dp"
@@ -78,21 +78,21 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:paddingLeft="10dp"
-            android:text="컴퓨터학부"
+            android:text="email"
             android:textColor="#6A6868"
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/tv_Major"
+            android:id="@+id/tv_mp_Grade"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
             android:layout_marginBottom="11dp"
-            android:text="Sex"
+            android:text="Grade"
             android:textSize="16sp" />
 
         <EditText
-            android:id="@+id/et_Major"
+            android:id="@+id/et_mp_Grade"
             android:layout_width="321dp"
             android:layout_height="45dp"
             android:layout_marginBottom="17dp"
@@ -100,7 +100,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:paddingLeft="10dp"
-            android:text="여자"
+            android:text="1"
             android:textColor="#6A6868"
             android:textSize="16sp" />
 

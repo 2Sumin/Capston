@@ -100,17 +100,17 @@
 
         android:layout_width="321dp"
         android:layout_height="42dp"
-        android:paddingLeft="10dp"
-
-        android:background="@drawable/tv_border"
-        android:textColor="#6A6868"
-
         android:layout_marginStart="8dp"
+
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
+
+        android:background="@drawable/tv_border"
         android:ems="10"
-        android:hint="password"
+        android:hint="password (6자 이상)"
         android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textColor="#6A6868"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="@+id/ET_EmailAddress"
         app:layout_constraintStart_toStartOf="@+id/ET_EmailAddress"
@@ -138,7 +138,7 @@
         app:layout_constraintTop_toBottomOf="@+id/ET_Password" />
 
     <EditText
-        android:id="@+id/ET_university"
+        android:id="@+id/ET_school"
 
         android:layout_width="321dp"
         android:layout_height="42dp"
@@ -149,7 +149,7 @@
 
         android:background="@drawable/tv_border"
         android:ems="10"
-        android:hint="University"
+        android:hint="School"
         android:inputType="textPersonName"
         android:paddingLeft="10dp"
         android:textColor="#6A6868"
@@ -159,7 +159,7 @@
         app:layout_constraintTop_toBottomOf="@+id/ET_password_check" />
 
     <EditText
-        android:id="@+id/ET_major"
+        android:id="@+id/ET_Grade"
 
         android:layout_width="321dp"
         android:layout_height="42dp"
@@ -170,14 +170,14 @@
 
         android:background="@drawable/tv_border"
         android:ems="10"
-        android:hint="Major"
+        android:hint="Grade"
         android:inputType="textPersonName"
         android:paddingLeft="10dp"
         android:textColor="#6A6868"
         android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="@+id/ET_university"
-        app:layout_constraintStart_toStartOf="@+id/ET_university"
-        app:layout_constraintTop_toBottomOf="@+id/ET_university" />
+        app:layout_constraintEnd_toEndOf="@+id/ET_school"
+        app:layout_constraintStart_toStartOf="@+id/ET_school"
+        app:layout_constraintTop_toBottomOf="@+id/ET_school" />
 
     <Button
         android:id="@+id/btn_register"
@@ -193,10 +193,10 @@
         android:textColor="@color/white"
         app:iconTint="#3B8ED1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/ET_major"
+        app:layout_constraintEnd_toEndOf="@+id/ET_Grade"
         app:layout_constraintHorizontal_bias="0.444"
-        app:layout_constraintStart_toStartOf="@+id/ET_major"
-        app:layout_constraintTop_toBottomOf="@+id/ET_major"
+        app:layout_constraintStart_toStartOf="@+id/ET_Grade"
+        app:layout_constraintTop_toBottomOf="@+id/ET_Grade"
         app:rippleColor="#1E72B5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

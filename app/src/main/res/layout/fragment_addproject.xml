@@ -19,7 +19,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ET_major" />
+        app:layout_constraintTop_toBottomOf="@+id/ET_Grade" />
 
     <TextView
         android:id="@+id/textView2"
@@ -32,7 +32,7 @@
         android:text="프로젝트명"
         android:textColor="#69695D"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/ET_university"
+        app:layout_constraintBottom_toTopOf="@+id/ET_school"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -46,9 +46,9 @@
         android:text="프로젝트 설명"
         android:textColor="#69695D"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/ET_major"
+        app:layout_constraintBottom_toTopOf="@+id/ET_Grade"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ET_university" />
+        app:layout_constraintTop_toBottomOf="@+id/ET_school" />
 
     <Button
         android:id="@+id/btn_registerr"
@@ -150,7 +150,7 @@
     </LinearLayout>
 
     <EditText
-        android:id="@+id/ET_university"
+        android:id="@+id/ET_school"
         android:layout_width="307dp"
         android:layout_height="47dp"
         android:layout_marginStart="23dp"
@@ -171,7 +171,7 @@
         app:layout_constraintVertical_bias="0.363" />
 
     <EditText
-        android:id="@+id/ET_major"
+        android:id="@+id/ET_Grade"
         android:layout_width="307dp"
         android:layout_height="75dp"
         android:layout_marginStart="23dp"
