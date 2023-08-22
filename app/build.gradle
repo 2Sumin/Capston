@@ -3,6 +3,11 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     // binding 사용하기 위해 추가 (1)
     id 'kotlin-parcelize'
+
+    // -------firebase---------
+    // Add the Google services Gradle plugin
+    id 'com.google.gms.google-services'
+
 }
 
 android {
@@ -24,7 +29,8 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.guri.loginkt_new"
+        // 패키지 이름 변경
+        applicationId "com.guri.EMS_for_Children"
         // 24 -> 28 (jiye)
         minSdk 28
         targetSdk 33
@@ -65,7 +71,6 @@ android {
 
 dependencies {
 
-
     // 뷰페이저를 위해 추가
     implementation 'androidx.viewpager2:viewpager2:1.0.0-alpha01'
 
@@ -90,8 +95,17 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
+    // Firebase
+  // Import the Firebase BoM
+    implementation(platform("com.google.firebase:firebase-bom:32.2.2"))
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-auth:21.0.1' // Firebase Authentication
+    implementation 'com.google.firebase:firebase-database:20.0.2' // Firebase Realtime Database
+
+
 
 }
 
 // Solution - Task 'prepareKotlinBuildScriptModel' not found in project ':app'.
 tasks.register("prepareKotlinBuildScriptModel"){}
+
