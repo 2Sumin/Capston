@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_vp_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_vp_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="피그마 확인 회의"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_vp_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="11dp"
+        android:gravity="start"
+        android:text="Lörem ipsum bertad lybik. Lahur mikrobabelt. Abav dogen. Tesade oktig alltså tesorade umiv milusk. Nyna tempotism inte prerade bir.  "
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_vp_title" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/tv_vp_details">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/gray_time_icon" />
+
+        <TextView
+            android:id="@+id/tv_vp_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2023년 5월 13일 - 5월 19일" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

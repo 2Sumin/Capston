@@ -7,14 +7,18 @@ import android.util.Log
 import android.view.Menu
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.firebase.Timestamp
 import com.guri.loginkt_new.Fragments.*
 import com.guri.loginkt_new.databinding.ActivityNotificationBinding
 import com.guri.loginkt_new.recyclerView.NotificationListAdapter
+import com.google.firebase.firestore.FirebaseFirestore
+
 import com.guri.loginkt_new.recyclerView.NotificationList
 
 class NotificationActivity : AppCompatActivity() {
     // 뷰바인딩 사용하기 위해 추가 (3)
     private lateinit var binding: ActivityNotificationBinding
+    private val firestore: FirebaseFirestore = FirebaseFirestore.getInstance()
 
     val homeF = homeFragment()
     val mapF = mapFragment()
@@ -98,42 +102,36 @@ class NotificationActivity : AppCompatActivity() {
             true
         }
 
-        // 여기부터 알림 목록
+        // 데이터 가져오기
+        fetchDataFromFirestore()
 
-        val profileList = arrayListOf(
-            NotificationList("수업 일정 추가", "5월 22일 15:00 - 18:00"),
-            NotificationList("수업 확정 완료", "5월 17일 13:00"),
-            NotificationList("new Todo 추가", "5월 14일 14:29"),
-            NotificationList("수업 일정 추가", "5월 13일 14:00 - 16:00"),
-            NotificationList("장소 확정 완료", "5월 13일 12:24"),
-            NotificationList("수업 일정 추가", "5월 11일 11:00 - 13:00"),
-            NotificationList("new Todo 추가", "5월 8일 17:00"),
-            NotificationList("수업 일정 추가", "5월 7일 15:00 - 18:00"),
-            NotificationList("수업 일정 추가", "5월 6일 15:00 - 18:00"),
-            NotificationList("장소 확정 완료", "5월 6일 18:59"),
-            NotificationList("수업 공지", "5월 4일 15:00"),
-            NotificationList("수업 일정 추가", "5월 3일 15:00 - 18:00"),
-            NotificationList("수업 일정 추가", "5월 2일 13:00 - 15:00"),
-            NotificationList("new Todo 추가", "5월 2일 14:39"),
-            NotificationList("장소 확정 완료", "5월 1일 13:29"),
-            NotificationList("수업 일정 추가", "5월 1일 11:00 - 13:00"),
-            NotificationList("수업 공지", "4월 29일 15:00"),
-            NotificationList("수업 일정 추가", "4월 29일 13:47"),
-            NotificationList("장소 확정 완료", "4월 27일 19:00"),
-            NotificationList("new Todo 추가", "4월 25일 13:59"),
-            NotificationList("수업 일정 추가", "4월 24일 15:00 - 18:00"),
-            NotificationList("수업 일정 추가", "4월 23일 13:00 - 16:00"),
-            NotificationList("장소 확정 완료", "4월 17일 11:26"),
-            NotificationList("수업 일정 추가", "4월 14일 15:00 - 18:00"),
-            NotificationList("new Todo 추가", "4월 10일 15:00 - 18:00")
-        )
+    }
 
-        // 세로 방향으로 리스트 만들고있으니까 VERTICAL
-        binding.rvPro1.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
-        binding.rvPro1.setHasFixedSize(true)
-        binding.rvPro1.adapter = NotificationListAdapter(profileList)
+//    ----------------------------------------------------------------------
+    // firebase 사용 부분
+    private fun fetchDataFromFirestore() {
+        firestore.collection("Telegram") // collection name
+            .get()
+            .addOnSuccessListener { documents ->
+                val profileList = arrayListOf<NotificationList>()
+                for (document in documents) {
+                    val title = document.getString("Title") ?: ""
+                    val date = document.getTimestamp("Date") ?: ""
+                    val place = document.getString("Place") ?: ""
+                    val institution = document.getString("Institution") ?: ""
+                    val contents = document.getString("Contents") ?: ""
 
+                    profileList.add(NotificationList(title, date as Timestamp))
+                }
 
+                // 데이터를 RecyclerView에 표시
+                binding.rvPro1.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
+                binding.rvPro1.setHasFixedSize(true)
+                binding.rvPro1.adapter = NotificationListAdapter(profileList)
+            }
+            .addOnFailureListener { exception ->
+                Log.w("NotificationActivity", "Error getting documents: ", exception)
+            }
     }
 
     private fun replaceFragment(fragment : Fragment) {

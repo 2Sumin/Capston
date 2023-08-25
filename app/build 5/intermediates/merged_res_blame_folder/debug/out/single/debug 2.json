@@ -1,0 +1,402 @@
+[
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/xml_backup_rules.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_progressbar_progressbar1.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/progressbar_progressbar1.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_time_selection_btn.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/time_selection_btn.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_fragment_recommendation.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/fragment_recommendation.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_fragment_afselection.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/fragment_afselection.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/xml_data_extraction_rules.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/menu_navi_menu.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/menu/navi_menu.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_button_circular.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/button_circular.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_shape_for_circle_button.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/shape_for_circle_button.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_fragment_todo.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/fragment_todo.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_ic_arrow_drop_down_circle_black_24dp.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/ic_arrow_drop_down_circle_black_24dp.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_modal_background.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/modal_background.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_calendar_gray.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/calendar_gray.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_date_selected_popup.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/date_selected_popup.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_time_selection_yes.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/time_selection_yes.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_list_item_hori.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/list_item_hori.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_activity_navi.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/activity_navi.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_plus_circle_icon.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/plus_circle_icon.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_activity_notification.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/activity_notification.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_fragment_bfselection.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/fragment_bfselection.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_list_item_project.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/list_item_project.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_add_pro_btn.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/add_pro_btn.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_nav2.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/nav2.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_dday_status_circle.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/dday_status_circle.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_checkbox.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/checkbox.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_selector_listview.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/selector_listview.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_activity_main.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_fragment_home.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_tv_border.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/tv_border.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_time_selection_no.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/time_selection_no.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_list_item_map.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/list_item_map.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_fragment_mypage.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/fragment_mypage.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_add_project_btn.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/add_project_btn.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_ic_remove_from_queue_black_24dp.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/ic_remove_from_queue_black_24dp.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_selector_btn_color.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/selector_btn_color.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_arrow_back.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/arrow_back.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_calendar_selection.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/calendar_selection.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_cal_arrow_front.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/cal_arrow_front.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_round_button.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/round_button.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_fragment_add_calendar.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/fragment_add_calendar.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/xml_network_security_config.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_bottomsheetlayout.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/bottomsheetlayout.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_check.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/check.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_member_gray.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/member_gray.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_fragment_addproject.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/fragment_addproject.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_nav4.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/nav4.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_marker.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/marker.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_list_grid_item.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/list_grid_item.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_toolbar_notification.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/toolbar_notification.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_prog_rectangle.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/prog_rectangle.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/menu_toolbar_menu.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/menu/toolbar_menu.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_toolbar.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/toolbar.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_toolbar_mypage.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/toolbar_mypage.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_minus_circle_icon.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/minus_circle_icon.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_item_state.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/item_state.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_vp_background.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/vp_background.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_nav3.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/nav3.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_fragment_selectionwithpopup.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/fragment_selectionwithpopup.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_cal_arrow_back.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/cal_arrow_back.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_gray_circle.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/gray_circle.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_member_blue.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/member_blue.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_fragment_contribution.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/fragment_contribution.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_list_item_ver.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/list_item_ver.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_white_rectangle_left_radius.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/white_rectangle_left_radius.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_item_name.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/item_name.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_menu_click_color.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/menu_click_color.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_time_selection_unselected.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/time_selection_unselected.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_time_selection_selected.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/time_selection_selected.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_activity_home.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_dday_rectangle.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/dday_rectangle.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_selector_txt_color.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/selector_txt_color.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_viewpager_layout.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/viewpager_layout.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_radius.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/radius.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_time_selection.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/time_selection.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_fragment_calendar.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/fragment_calendar.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_ic_baseline_calendar_today_24.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/ic_baseline_calendar_today_24.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_activity_login.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_list_item.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/list_item.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_select_date.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/select_date.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_fragment_notification.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/fragment_notification.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_nav1.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/nav1.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/layout_fragment_map.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/layout/fragment_map.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_gray_time_icon.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/gray_time_icon.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_ic_dehaze_black_24dp.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/ic_dehaze_black_24dp.xml"
+    },
+    {
+        "merged": "com.guri.loginkt_new.app-merged_res-36:/drawable_background_modal.xml.flat",
+        "source": "com.guri.loginkt_new.app-main-38:/drawable/background_modal.xml"
+    }
+]

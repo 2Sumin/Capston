@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.guri.loginkt_new.app-mergeDebugResources-34:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/2sumin/.gradle/caches/transforms-3/379e28afa664603ce1620723dc0cfb85/transformed/appcompat-1.6.1/res/values-watch-v21/values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

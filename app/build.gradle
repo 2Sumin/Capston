@@ -101,11 +101,10 @@ dependencies {
     implementation 'com.google.firebase:firebase-analytics-ktx'
     implementation 'com.google.firebase:firebase-auth:21.0.1' // Firebase Authentication
     implementation 'com.google.firebase:firebase-database:20.0.2' // Firebase Realtime Database
-
-
+// ------ Firestore Database ------
+    implementation 'com.google.firebase:firebase-firestore:24.0.0'
 
 }
 
 // Solution - Task 'prepareKotlinBuildScriptModel' not found in project ':app'.
 tasks.register("prepareKotlinBuildScriptModel"){}
-

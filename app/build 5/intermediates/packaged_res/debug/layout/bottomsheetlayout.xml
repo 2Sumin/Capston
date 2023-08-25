@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottomSheetDashBoardLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:behavior_hideable="true"
+    app:behavior_draggable="true"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    >
+
+
+    <TextView
+        android:id="@+id/tv_add_todo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="40dp"
+        android:text="TODO 추가"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/add_todo_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/add_todo_content"
+        android:layout_width="wrap_content"
+        android:layout_height="311dp"
+        android:layout_marginBottom="57dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_add2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:id="@+id/ll_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_todo_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TODO 이름"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/et_todo_name"
+                android:layout_width="321dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="11dp"
+                android:background="@drawable/tv_border"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:textColor="#6A6868"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/ll_name">
+
+            <TextView
+                android:id="@+id/tv_todo_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="11dp"
+                android:text="세부사항"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/et_todo_detail"
+                android:layout_width="321dp"
+                android:layout_height="45dp"
+                android:background="@drawable/tv_border"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:textColor="#6A6868"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/ll_detail">
+
+            <TextView
+                android:id="@+id/tv_todo_duedate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="11dp"
+                android:text="마감 일시"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_todo_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/tv_af_todo_duedate"
+                android:layout_width="321dp"
+                android:layout_height="45dp"
+                android:background="@drawable/tv_border"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:textColor="#6A6868"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/btn_add2"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+
+
+        android:background="@drawable/button_circular"
+        android:text="추가하기"
+
+        android:textColor="@color/white"
+        app:iconTint="#3B8ED1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_todo_content"
+        app:rippleColor="#1E72B5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
