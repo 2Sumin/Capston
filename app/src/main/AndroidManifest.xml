@@ -19,6 +19,9 @@
         android:theme="@style/Theme.Loginkt_new"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
+        <activity
+            android:name=".NotificationDetailActivity"
+            android:exported="false" />
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"

@@ -6,19 +6,18 @@ import android.os.Bundle
 import android.util.Log
 import android.view.Menu
 import androidx.fragment.app.Fragment
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.google.firebase.Timestamp
-import com.guri.loginkt_new.Fragments.*
-import com.guri.loginkt_new.databinding.ActivityNotificationBinding
-import com.guri.loginkt_new.recyclerView.NotificationListAdapter
 import com.google.firebase.firestore.FirebaseFirestore
+import com.guri.loginkt_new.Fragments.calendarFragment
+import com.guri.loginkt_new.Fragments.contributionFragment
+import com.guri.loginkt_new.Fragments.homeFragment
+import com.guri.loginkt_new.Fragments.mapFragment
+import com.guri.loginkt_new.databinding.ActivityNotificationDetailBinding
 
-import com.guri.loginkt_new.recyclerView.NotificationList
+class NotificationDetailActivity : AppCompatActivity() {
 
-class NotificationActivity : AppCompatActivity() {
     // 뷰바인딩 사용하기 위해 추가 (3)
-    private lateinit var binding: ActivityNotificationBinding
+    private lateinit var binding: ActivityNotificationDetailBinding
+    // firebase
     private val firestore: FirebaseFirestore = FirebaseFirestore.getInstance()
 
     val homeF = homeFragment()
@@ -26,13 +25,12 @@ class NotificationActivity : AppCompatActivity() {
     val calendarF = calendarFragment()
     val contributionF = contributionFragment()
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-//        setContentView(R.layout.activity_notification)
+//        setContentView(R.layout.activity_notification_detail)
 
         // binding 사용하기 위해 추가 (4)
-        binding = ActivityNotificationBinding.inflate(layoutInflater)
+        binding = ActivityNotificationDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         // 툴바 관련
@@ -103,43 +101,7 @@ class NotificationActivity : AppCompatActivity() {
             }
             true
         }
-
-        // firebase - 데이터 가져오기
-        fetchDataFromFirestore()
-
-
     }
-
-//    ----------------------------------------------------------------------
-    // firebase 사용 부분
-private fun fetchDataFromFirestore() {
-    firestore.collection("Telegram")
-        .get()
-        .addOnSuccessListener { documents ->
-            val profileList = arrayListOf<NotificationList>()
-            for (document in documents) {
-                val id = document.id  // document의 ID 가져오기
-                val title = document.getString("Title") ?: ""
-                val date = document.getTimestamp("Date") ?: Timestamp.now()
-
-                profileList.add(NotificationList(id, title, date))
-            }
-
-            // 데이터를 RecyclerView에 표시
-            binding.rvPro1.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
-            binding.rvPro1.setHasFixedSize(true)
-            binding.rvPro1.adapter = NotificationListAdapter(profileList) { selectedNotification ->
-                val intent = Intent(this, NotificationDetailActivity::class.java)
-                intent.putExtra("selectedId", selectedNotification.id)
-                startActivity(intent)
-            }
-        }
-        .addOnFailureListener { exception ->
-            Log.w("NotificationActivity", "Error getting documents: ", exception)
-        }
-}
-
-
 
     private fun replaceFragment(fragment : Fragment) {
         Log.d("MainActivity","${fragment}")
