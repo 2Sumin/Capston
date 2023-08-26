@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="sans-serif-medium"
-            android:text="Telegram"
+            android:text="Telegram Alarm"
             android:textColor="@color/toolbar_title_blue"
             android:textSize="24sp"
             tools:layout_editor_absoluteX="184dp"
@@ -38,20 +38,216 @@
         android:id="@+id/fragmentCotainer"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:background="#CFDCE8"
         app:layout_constraintBottom_toTopOf="@id/bottomNavigationView"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar" >
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
 
+
+        <!--  상단툴바   -->
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/under_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#6480A9"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <ImageView
+                android:id="@+id/arrow_lefft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                app:srcCompat="@drawable/arrow_lefft" />
+
+
+            <ImageView
+                android:id="@+id/teleprofile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/teleprofile" />
+
+            <TextView
+                android:id="@+id/teleTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="여기에 센터명"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="184dp"
+                tools:layout_editor_absoluteY="10dp" />
+
+
+            <ImageView
+                android:id="@+id/three_dot"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                app:srcCompat="@drawable/three_dot" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <ImageView
+            android:id="@+id/speechbubble"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            app:srcCompat="@drawable/speechbubble" />
+
+        <ImageView
+            android:id="@+id/speechbubble_sub"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="200dp"
+            app:srcCompat="@drawable/speechbubble_sub" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/teleContents"
+            android:layout_width="280dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="100dp"
+            android:text="너구리 삼행시 해보겠습니다.
+너: 너는 왜
+구: 구렇게
+리: 리상하게 자고 일어나?"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.27"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/teleDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="텔레그램 세부 페이지!!"
-            android:textSize="60sp" />
+            android:layout_marginTop="230dp"
+            android:layout_marginStart="300dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/teleContents" />
+
+<!--        메세지 입력창-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/telemessage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/app_cloud"
+                android:layout_width="28dp"
+                android:layout_height="25dp"
+                android:layout_marginEnd="25dp"
+                android:background="@drawable/cloud"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_af_todo_duetime"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/tv_af_todo_duetime" />
+
+            <Button
+                android:id="@+id/clip"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="60dp"
+                android:background="@drawable/clip"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_af_todo_duetime"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/tv_af_todo_duetime" />
+
+            <Button
+                android:id="@+id/box"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginEnd="97dp"
+                android:background="@drawable/box"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_af_todo_duetime"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/tv_af_todo_duetime" />
+
+<!--            <Button-->
+<!--                android:id="@+id/smile"-->
+<!--                android:layout_width="16dp"-->
+<!--                android:layout_height="18dp"-->
+<!--                android:layout_marginstart="@"-->
+<!--                android:background="@drawable/emoticon_smile"-->
+<!--                app:layout_constraintBottom_toBottomOf="@+id/tv_af_todo_duetime"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="@+id/tv_af_todo_duetime" />-->
+
+            <TextView
+                android:id="@+id/tv_af_todo_duetime"
+                android:layout_width="420dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="570dp"
+                android:background="@drawable/tv_border"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:hint="                메세지"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingTop="12.5dp"
+                android:textColor="#6A6868"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.555"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+
+            <ImageView
+                android:id="@+id/app"
+                android:layout_width="18dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="362dp"
+                android:layout_marginBottom="2dp"
+                app:layout_constraintBottom_toBottomOf="@+id/box"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/app" />
+
+            <ImageView
+                android:id="@+id/diag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="3dp"
+                app:layout_constraintBottom_toBottomOf="@+id/box"
+                app:layout_constraintEnd_toEndOf="@+id/box"
+                app:srcCompat="@drawable/diag" />
+
+            <ImageView
+                android:id="@+id/smile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="240dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/box"
+                app:srcCompat="@drawable/emoticon_smile" />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
     </FrameLayout>
 
+<!--    하단바-->
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
         android:layout_width="0dp"
@@ -63,8 +259,6 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:menu="@menu/navi_menu" />
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -33,22 +33,42 @@
 
     </androidx.appcompat.widget.Toolbar>
 
+    <!--검색창-->
+<!--    <EditText-->
+<!--        android:id="@+id/et_email"-->
+<!--        android:layout_width="361dp"-->
+<!--        android:layout_height="45dp"-->
+<!--        android:background="@drawable/tv_border"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textEmailAddress"-->
+<!--        android:paddingLeft="10dp"-->
+<!--        android:textColor="#6A6868"-->
+<!--        android:textSize="16sp"-->
+
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.502"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/toolbar" />-->
+
+
+
     <!--    하단에 내비게이션바 삽입-->
     <FrameLayout
         android:id="@+id/fragmentCotainer"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="570dp"
         app:layout_constraintBottom_toTopOf="@id/bottomNavigationView"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar" >
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.97">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:layout_marginLeft="26dp"
-            android:layout_marginRight="26dp"
             android:id="@+id/rv_pro_1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="597dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginRight="26dp" />
     </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -62,5 +82,16 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:menu="@menu/navi_menu" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-3dp"
+        app:layout_constraintBottom_toTopOf="@+id/fragmentCotainer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/telesearchbar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
