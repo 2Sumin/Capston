@@ -95,7 +95,7 @@
 
         <ImageView
             android:id="@+id/speechbubble"
-            android:layout_width="350dp"
+            android:layout_width="316dp"
             android:layout_height="200dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="80dp"
@@ -129,8 +129,8 @@
             android:id="@+id/teleDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="235dp"
-            android:layout_marginStart="310dp"
+            android:layout_marginTop="233dp"
+            android:layout_marginStart="288dp"
             android:textSize="10sp"
             android:textColor="#C5C5C5"
 
