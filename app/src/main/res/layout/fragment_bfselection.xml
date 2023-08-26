@@ -98,7 +98,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/member_blue"
-                android:text="조원1" />
+                android:text="학생1" />
 
             <Button
                 android:id="@+id/btn_mem3"
@@ -107,7 +107,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/member_blue"
-                android:text="조원2" />
+                android:text="학생2" />
 
             <Button
                 android:id="@+id/btn_mem4"
@@ -116,7 +116,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/member_blue"
-                android:text="조원3" />
+                android:text="학생3" />
 
             <Button
                 android:id="@+id/btn_mem5"
@@ -125,7 +125,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/member_blue"
-                android:text="조원4" />
+                android:text="학생4" />
 
             <Button
                 android:id="@+id/btn_mem6"
@@ -134,7 +134,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/member_blue"
-                android:text="조원5" />
+                android:text="학생5" />
 
         </LinearLayout>
 
