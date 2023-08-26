@@ -61,17 +61,9 @@
 
 
             <ImageView
-                android:id="@+id/arrow_lefft"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                app:srcCompat="@drawable/arrow_lefft" />
-
-
-            <ImageView
                 android:id="@+id/teleprofile"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
                 android:layout_marginTop="5dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -93,8 +85,8 @@
 
             <ImageView
                 android:id="@+id/three_dot"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
                 android:layout_gravity="right"
                 app:srcCompat="@drawable/three_dot" />
 
@@ -182,15 +174,15 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/tv_af_todo_duetime" />
 
-<!--            <Button-->
-<!--                android:id="@+id/smile"-->
-<!--                android:layout_width="16dp"-->
-<!--                android:layout_height="18dp"-->
-<!--                android:layout_marginstart="@"-->
-<!--                android:background="@drawable/emoticon_smile"-->
-<!--                app:layout_constraintBottom_toBottomOf="@+id/tv_af_todo_duetime"-->
-<!--                app:layout_constraintEnd_toEndOf="parent"-->
-<!--                app:layout_constraintTop_toTopOf="@+id/tv_af_todo_duetime" />-->
+            <!--            <Button-->
+            <!--                android:id="@+id/smile"-->
+            <!--                android:layout_width="16dp"-->
+            <!--                android:layout_height="18dp"-->
+            <!--                android:layout_marginstart="@"-->
+            <!--                android:background="@drawable/emoticon_smile"-->
+            <!--                app:layout_constraintBottom_toBottomOf="@+id/tv_af_todo_duetime"-->
+            <!--                app:layout_constraintEnd_toEndOf="parent"-->
+            <!--                app:layout_constraintTop_toTopOf="@+id/tv_af_todo_duetime" />-->
 
             <TextView
                 android:id="@+id/tv_af_todo_duetime"
@@ -243,7 +235,6 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/box"
                 app:srcCompat="@drawable/emoticon_smile" />
-
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
