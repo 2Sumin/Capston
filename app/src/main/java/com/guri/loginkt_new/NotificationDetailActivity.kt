@@ -12,6 +12,8 @@ import com.guri.loginkt_new.Fragments.contributionFragment
 import com.guri.loginkt_new.Fragments.homeFragment
 import com.guri.loginkt_new.Fragments.mapFragment
 import com.guri.loginkt_new.databinding.ActivityNotificationDetailBinding
+import java.text.SimpleDateFormat
+import java.util.*
 
 class NotificationDetailActivity : AppCompatActivity() {
 
@@ -101,6 +103,41 @@ class NotificationDetailActivity : AppCompatActivity() {
             }
             true
         }
+
+// firebase
+// getIntent()를 사용하여 전달된 ID 값을 가져옴.
+        val selectedId = intent.getStringExtra("selectedId")
+
+        // Firestore에서 해당 ID를 사용하여 데이터를 가져옵니다.
+        if (selectedId != null) {
+            fetchDataFromFirestore(selectedId)
+        }
+    }
+
+// firebase
+
+    private fun fetchDataFromFirestore(notificationId: String) {
+        firestore.collection("Telegram") // Collection name
+            .document(notificationId)
+            .get()
+            .addOnSuccessListener { document ->
+                if (document != null) {
+                    // 데이터를 화면에 표시
+                    binding.teleTitle.text = document.getString("Title")
+//                    binding.teleDate.text = document.getDate("Date").toString()
+                    val date = document.getDate("Date")
+                    if (date != null) {
+                        val formatter = SimpleDateFormat("a h:mm", Locale.getDefault())
+                        binding.teleDate.text = formatter.format(date)
+                    }
+                    binding.teleContents.text = document.getString("Contents")
+                } else {
+                    Log.d("NotificationDetail", "No such document")
+                }
+            }
+            .addOnFailureListener { exception ->
+                Log.d("NotificationDetail", "get failed with ", exception)
+            }
     }
 
     private fun replaceFragment(fragment : Fragment) {
