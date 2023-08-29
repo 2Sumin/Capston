@@ -6,7 +6,6 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.guri.loginkt_new.R
-import com.google.firebase.Timestamp
 import java.text.SimpleDateFormat
 
 class NotificationListAdapter(

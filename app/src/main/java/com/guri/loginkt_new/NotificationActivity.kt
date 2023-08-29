@@ -7,7 +7,6 @@ import android.util.Log
 import android.view.Menu
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.Timestamp
 import com.guri.loginkt_new.Fragments.*
 import com.guri.loginkt_new.databinding.ActivityNotificationBinding

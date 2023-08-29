@@ -9,7 +9,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
 import com.guri.loginkt_new.R
-import com.guri.loginkt_new.databinding.FragmentAfselectionBinding
 import com.guri.loginkt_new.databinding.FragmentRecommendationBinding
 import com.guri.loginkt_new.recyclerView.*
 

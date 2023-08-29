@@ -7,9 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.viewpager2.widget.ViewPager2
 import com.guri.loginkt_new.R
-import com.guri.loginkt_new.databinding.FragmentAfselectionBinding
-import com.guri.loginkt_new.databinding.FragmentCalendarBinding
-import com.guri.loginkt_new.databinding.FragmentContributionBinding
 import com.guri.loginkt_new.databinding.FragmentSelectionwithpopupBinding
 import com.guri.loginkt_new.recyclerView.MyViewPager
 import com.guri.loginkt_new.recyclerView.MyViewPagerAdapter

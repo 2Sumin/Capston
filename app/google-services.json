@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "305019681774",
+    "firebase_url": "https://ems-for-children-default-rtdb.firebaseio.com",
     "project_id": "ems-for-children",
     "storage_bucket": "ems-for-children.appspot.com"
   },
@@ -18,6 +19,43 @@
           "client_type": 1,
           "android_info": {
             "package_name": "com.guri.EMS_for_Children",
+            "certificate_hash": "d37fe0be77f3ce442d6c072063e4e08ba05f40d9"
+          }
+        },
+        {
+          "client_id": "305019681774-e8algurjocao4n3abnub40nuv4ff0itd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDld36b0OpPtMqWogIoxt9FcDdKg05bT8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305019681774-e8algurjocao4n3abnub40nuv4ff0itd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305019681774:android:4e51e15ddf44ace8f02cff",
+        "android_client_info": {
+          "package_name": "com.guri.loginkt_new"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305019681774-ptdugejfqjhgvma093nj88fb68uc0u52.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.guri.loginkt_new",
             "certificate_hash": "d37fe0be77f3ce442d6c072063e4e08ba05f40d9"
           }
         },
